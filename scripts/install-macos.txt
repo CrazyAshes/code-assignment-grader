@@ -1,0 +1,29 @@
+Code Assignment Grader — macOS Installation / macOS 安装说明
+=============================================================
+
+English
+-------
+1. Double-click the DMG file and drag the app into the Applications folder.
+2. If macOS shows "App is damaged and can't be opened" (Gatekeeper block, not real corruption):
+   • Option A: Double-click fix-mac-quarantine.command in this folder
+   • Option B: Run in Terminal:
+     xattr -cr "/Applications/Code Assignment Grader.app"
+3. Launch from Launchpad or Applications.
+4. On first launch, open Settings in the app and enter your API Key (OpenAI or Kimi CN).
+   Do NOT share your API Key. It is stored locally on your machine only.
+
+When sharing with others, send all files in this folder together.
+
+
+中文
+----
+1. 双击 DMG，将 App 拖到「应用程序」文件夹。
+2. 若提示「已损坏，无法打开」（macOS 安全拦截，并非文件损坏）：
+   • 方法一：双击本文件夹内的 fix-mac-quarantine.command
+   • 方法二：打开终端，执行：
+     xattr -cr "/Applications/Code Assignment Grader.app"
+3. 从启动台或「应用程序」打开即可使用。
+4. 首次使用请在 App 内「设置」中填写 API Key（OpenAI 或 Kimi 国内版）。
+   请勿泄露 API Key，密钥仅保存在本机。
+
+传给别人时，请一并发送本文件夹内的全部文件。

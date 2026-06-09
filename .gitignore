@@ -1,0 +1,12 @@
+node_modules
+dist
+out
+release
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.pem
+*.key
+credentials.json
