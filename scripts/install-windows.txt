@@ -1,0 +1,31 @@
+Code Assignment Grader — Windows Installation / Windows 安装说明
+==================================================================
+
+English
+-------
+1. Extract the ZIP file to a folder (e.g. C:\Program Files\Code Assignment Grader).
+2. Run "Code Assignment Grader.exe" inside the extracted folder.
+3. If Windows SmartScreen shows "Windows protected your PC":
+   • Click "More info" → "Run anyway"
+   • Or right-click the .exe → Properties → check "Unblock" → OK
+   • Or run in PowerShell (replace path as needed):
+     Unblock-File -Path "C:\Path\To\Code Assignment Grader.exe"
+4. On first launch, open Settings in the app and enter your API Key (OpenAI or Kimi CN).
+   Do NOT share your API Key. It is stored locally on your machine only.
+
+When sharing with others, send all files in this folder together.
+
+
+中文
+----
+1. 解压 ZIP 到任意文件夹（例如 C:\Program Files\Code Assignment Grader）。
+2. 进入解压后的文件夹，运行 Code Assignment Grader.exe。
+3. 若 Windows 提示「已保护你的电脑」（SmartScreen 拦截）：
+   • 点击「更多信息」→「仍要运行」
+   • 或右键 .exe → 属性 → 勾选「解除锁定」→ 确定
+   • 或在 PowerShell 中执行（路径请自行修改）：
+     Unblock-File -Path "C:\路径\Code Assignment Grader.exe"
+4. 首次使用请在 App 内「设置」中填写 API Key（OpenAI 或 Kimi 国内版）。
+   请勿泄露 API Key，密钥仅保存在本机。
+
+传给别人时，请一并发送本文件夹内的全部文件。
